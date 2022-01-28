@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(93, 204, 207);
+    margin:2%;
+    padding:2%;
+}
+.container{
+    text-align: center;
+    font-size: 160%;
+    font-weight: 800;
+    font-style:normal;
+}
+.title{
+    font-size: 110%;
+}
+.clock{
+    font-family: cursive;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.btn{
+    padding: 10px 30px;
+    margin: 0px 10px;
+    border: none;
+    color: darkgray;
+    border-style: solid;
+    background-color:crimson;
+    cursor: pointer;
+    border-radius: 7px;
+}
